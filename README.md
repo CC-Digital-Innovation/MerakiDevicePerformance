@@ -18,7 +18,7 @@ This PowerShell script creates a custom PRTG sensor that monitors the device uti
 ## Installation
 1. Install the Meraki PowerShell module on your PRTG probe server:
    ```powershell
-   Install-Module -Name Meraki -Force
+   Install-Module -Name Meraki
    ```
 2. Save the script file (e.g., `MerakiDeviceUtilization.ps1`) on your PRTG probe server.
 
