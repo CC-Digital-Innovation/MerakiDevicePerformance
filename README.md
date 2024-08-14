@@ -27,7 +27,7 @@ To use this script as a PRTG sensor:
 
 1. In PRTG, add a new sensor to your device and choose "EXE/Script Advanced" sensor type.
 2. Set the sensor to use PowerShell as the EXE/Script.
-3. In the "Parameters" field, enter: `-AuthToken "%windowsuser" -DeviceSerial "%windowsdomain"`
+3. In the "Parameters" field, enter: `-AuthToken "AUTHTOKEN" -DeviceSerial "SERIALNUMBER"`
 4. In your device settings, set the Windows credentials:
    - Username: Your Meraki API key
    - Domain/PDC: Your device serial number
@@ -51,16 +51,16 @@ $errorThreshold = 90
 ```
 
 ## Notes
-- Author: [Your Name]
-- Date: [Current Date]
+- Author: Richard Travellin
+- Date: 8/14/2024
 - Version: 1.0
-- Link: [Your GitHub Repository URL]
+- Link: https://github.com/CC-Digital-Innovation/MerakiDevicePerformance
 
 ## License
-[Specify your license here, e.g., MIT, GPL, etc.]
+MIT
 
 ## Contributing
 Contributions to this project are welcome. Please fork the repository and submit a pull request with your changes.
 
 ## Support
-For support, please open an issue in the GitHub repository or contact [your contact information].
+For support, please open an issue in the GitHub repository or contact Richard Travellin
